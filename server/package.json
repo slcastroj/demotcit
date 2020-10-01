@@ -1,0 +1,35 @@
+{
+  "name": "demo-tcit",
+  "version": "1.0.0",
+  "description": "This is a demo project for the TCIT job application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "set NODE_ENV=prod && node ./src/index.js",
+    "test": "set NODE_ENV=test && jest --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-transform-destructuring": "^7.10.4",
+    "@types/express": "^4.17.8",
+    "@types/jest": "^26.0.14",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jest": "^26.4.2",
+    "pg-promise": "^10.6.1",
+    "supertest": "^5.0.0"
+  },
+  "type": "commonjs",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0"
+  }
+}

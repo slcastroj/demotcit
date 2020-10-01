@@ -1,0 +1,28 @@
+{
+	// Use IntelliSense para saber los atributos posibles.
+	// Mantenga el puntero para ver las descripciones de los existentes atributos.
+	// Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "firefox",
+			"request": "launch",
+			"reAttach": true,
+			"profile": "work",
+			"keepProfileChanges": true,
+			"name": "Launch firefox",
+			"url": "http://localhost:3000/",
+			"webRoot": "${workspaceFolder}/src/",
+			"pathMappings": [
+				{
+					"url": "file:///D:/Users/slcastroj/Documents/Repos/metalsigma-react/src/Components",
+					"path": "${workspaceFolder}/src/Components"
+				},
+				{
+					"url": "http://localhost:3000",
+					"path": "${workspaceFolder}/src/"
+				}
+			]
+		}
+	]
+}

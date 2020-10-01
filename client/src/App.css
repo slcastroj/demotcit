@@ -1,0 +1,32 @@
+body {
+    min-height: 100vh;
+}
+
+.deletePost {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+td
+{
+ max-width: 0;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+
+td.column-id {
+    width: 5%;
+}
+td.column-name {
+    width: 25%;
+}
+td.column-description {
+    width: 55%;
+}
+td.column-options {
+    width: 15%;
+}
